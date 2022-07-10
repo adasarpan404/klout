@@ -32,7 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "cd server && npm start"
   },
   "eslintConfig": {
     "extends": [
@@ -51,5 +52,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "client for klout",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "Arpan Das",
+  "license": "MIT"
 }
